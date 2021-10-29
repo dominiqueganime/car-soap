@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:us="http://bootcamp.com/">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <us:getCarRequest>
+            <us:brand>BMW</us:brand>
+        </us:getCarRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
